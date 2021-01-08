@@ -1,0 +1,26 @@
+:root {
+            --main-div-width: 50%;
+            --main-div-vertical-padding: 10%;
+            --main-color: #f4828c;
+        }
+
+        body {
+            margin: 0px;
+            background-color: #775c6a;
+        }
+        div {
+            background-color: #fefbd0;
+            border-left: 6px solid var(--main-color);
+            width: var(--main-div-width);
+            padding-top: calc(var(--main-div-vertical-padding) / 2);
+            padding-bottom: calc(var(--main-div-vertical-padding) / 2);
+            margin-left: calc((100% - var(--main-div-width)) / 2);
+            margin-top: 2%;
+        }
+        h1, form, p {
+            margin-right: 20%;
+        }
+
+        h1 {
+            color: var(--main-color);
+        }
